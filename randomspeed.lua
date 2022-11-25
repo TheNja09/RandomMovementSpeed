@@ -34,16 +34,17 @@ function Events(M,B,E) --Check for Map, Btl, and Evt
 end
 
 function Cheats()
-WriteFloat(Sys3+0x17CE4, (math.random(4,75)))
-WriteFloat(Sys3+0x17D18, (math.random(4,75))) -- Valor Form: DS = 12
-WriteFloat(Sys3+0x17D4C, (math.random(4,75))) -- Wisdom Form: DS = 12
-WriteFloat(Sys3+0x17D80, (math.random(4,75))) -- Master Form: DS = 10
-WriteFloat(Sys3+0x17DB4, (math.random(4,75))) -- Final Form: DS = 16
-WriteFloat(Sys3+0x17E1C, (math.random(4,75))) -- Lion Sora: DS = 18
-WriteFloat(Sys3+0x17DE8, (math.random(4,75))) -- Anti Form: DS = 16
-WriteFloat(Sys3+0x17E75, (math.random(4,75))) -- Mermaid Sora: DS = 7
-WriteFloat(Sys3+0x18190, (math.random(4,75))) -- Carpet Sora: DS = 20
-WriteFloat(Sys3+0x181F8, (math.random(4,75))) -- Dice Sora: DS = 8
-WriteFloat(Sys3+0x1822C, (math.random(4,75))) -- Card Sora: DS = 8
-WriteFloat(Sys3+0x18364, (math.random(4,75))) -- Limit Form: DS = 8
+local rng = math.random(4,75))
+WriteFloat(Sys3+0x17CE4, rng)
+WriteFloat(Sys3+0x17D18, rng) -- Valor Form: DS = 12
+WriteFloat(Sys3+0x17D4C, rng) -- Wisdom Form: DS = 12
+WriteFloat(Sys3+0x17D80, rng) -- Master Form: DS = 10
+WriteFloat(Sys3+0x17DB4, rng) -- Final Form: DS = 16
+WriteFloat(Sys3+0x17E1C, rng) -- Lion Sora: DS = 18
+WriteFloat(Sys3+0x17DE8, rng) -- Anti Form: DS = 16
+WriteFloat(Sys3+0x17E75, rng) -- Mermaid Sora: DS = 7
+WriteFloat(Sys3+0x18190, rng) -- Carpet Sora: DS = 20
+WriteFloat(Sys3+0x181F8, rng) -- Dice Sora: DS = 8
+WriteFloat(Sys3+0x1822C, rng) -- Card Sora: DS = 8
+WriteFloat(Sys3+0x18364, rng) -- Limit Form: DS = 8
 end
