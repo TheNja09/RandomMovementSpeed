@@ -34,7 +34,7 @@ function Events(M,B,E) --Check for Map, Btl, and Evt
 end
 
 function Cheats()
-local rng = math.random(4,75))
+local rng = math.random(4,75)
 WriteFloat(Sys3+0x17CE4, rng)
 WriteFloat(Sys3+0x17D18, rng) -- Valor Form: DS = 12
 WriteFloat(Sys3+0x17D4C, rng) -- Wisdom Form: DS = 12
