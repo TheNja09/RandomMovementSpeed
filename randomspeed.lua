@@ -34,6 +34,7 @@ function Events(M,B,E) --Check for Map, Btl, and Evt
 end
 
 function Cheats()
+math.randomseed(os.time())
 WriteFloat(Sys3+0x17CE4, math.random(1,24)) -- Base Speed: DS = 8
 WriteFloat(Sys3+0x17D18, math.random(1,36)) -- Valor Form: DS = 12
 WriteFloat(Sys3+0x17D4C, math.random(1,36)) -- Wisdom Form: DS = 12
