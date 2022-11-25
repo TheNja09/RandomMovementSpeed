@@ -1,6 +1,6 @@
 title: Random Running Speed
 description: This mod will randomize your running speed every room and form transition!
-- name: scripts/mpcost.lua
+- name: scripts/randomspeed.lua
   method: copy
   source:
-  - name: mpcost.lua
+  - name: randomspeed.lua
